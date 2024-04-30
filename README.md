@@ -6,7 +6,7 @@
 
 data: https://www.epa.gov/egrid/download-data
 
-Note: I found 2022 data is also available but as strictly following the document, I used 2021 eGRID_data in this application.
+(I found 2022 data is also available but as strictly following the document, I used 2021 eGRID_data in this application.)
 
 ## Overview
 
