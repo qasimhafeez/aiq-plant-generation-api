@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+  height: 100%;
+}
+
+#map { height: 180px; }
+
+
+.main-grid{
+  display: grid;
+  grid-template-columns: .75fr .3fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #255f9d;
+  color: white;
+  padding: 25px 20px;
+}
+
+.navbar-heading h1, h3 {
+  margin: 0;
+}
+
+.navbar-dropdown select {
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-dropdown select:focus {
+  outline: none;
+}
+
+
+/* card */
+.power-plant-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.power-plant-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.power-plant-card p {
+  margin: 5px 0;
+}
+
+
+/* loader screen */
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1{
+  font-size: 25px;
+  font-weight: bold;
+}
